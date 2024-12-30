@@ -1,0 +1,40 @@
+.subscription-form {
+    display: flex;
+    align-items: center;
+    gap:14px;
+    margin-bottom: 40px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffffd3; /* Borde alrededor del icono y el input */
+    background-color: #ffffffd3; /* Fondo negro */
+    padding: 8px 100px 8px 5px; /* Espaciado interno */
+}
+
+.input-container input[type="email"] {
+    border: none; /* Quita el borde predeterminado del input */
+    background: none; /* Quita el fondo predeterminado del input */
+    width: 230px; /* Ajusta el ancho del input */
+    padding: 9px;
+}
+
+.input-container input[type="email"]::placeholder {
+    color: #55575b; /* Color del texto del placeholder */
+    font-family:'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.subscribe-button{
+    background-color: $white;
+    color: black;
+    border: none;
+    padding: 18px 26px;
+    font-size: 12px;
+
+}

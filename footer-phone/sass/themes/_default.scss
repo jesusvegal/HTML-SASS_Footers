@@ -1,0 +1,16 @@
+//Poner la principal font
+
+html * 
+
+
+body {
+    overflow-x: hidden;
+} 
+
+footer.footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 96px 32px 0px 32px;
+    background-color: $gray;
+    color: $white;
+}
