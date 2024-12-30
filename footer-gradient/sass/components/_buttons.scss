@@ -1,0 +1,34 @@
+.container-buttons{
+    display: flex;
+    gap: 24px;
+
+    .button-get-started{
+        padding:10px 22px;
+        border-radius: 20px;
+        border: none;
+        background-color:$color-buttons-get-stared;
+        
+
+        a{
+            padding:10px;
+            text-decoration: none;
+            color:$color-buttons;
+            font-weight: 100;
+        }
+        
+    }
+
+    .contact{
+        padding:10px 22px;
+        border-radius: 20px;
+        border: none;
+        background-color: $color-buttons-contact;
+        
+        a{
+            padding:10px;
+            text-decoration: none;
+            color: $color-buttons-contact-intern;
+            font-weight: 100;
+        }
+    }
+}

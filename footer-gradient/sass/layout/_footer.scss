@@ -1,0 +1,145 @@
+footer{
+    margin-top: 150px;
+    position: relative;
+}
+
+.container-get-started{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    border-radius: 10px;
+    padding: 40px 24px;
+    background: linear-gradient(146deg, rgba(252,0,255,1) 15%, rgba(0,219,222,1) 100%);
+    color: $color-white;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .title{
+
+        .title-principal{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 100;
+        }
+    }
+}
+
+.container-habilidades{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+    article{
+        display: flex;
+        gap: 7px;
+        
+
+
+    }
+}
+
+
+.container-footer-purple{
+    padding: 150px 130px 0px 130px;
+    background-color: $color-background;
+
+    .logo{
+        margin-bottom: 24px;
+    }
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+
+    .title{
+        font-size: 18px;
+        font-weight: 400;
+        color: $color-white;
+        margin-bottom: 21px;
+    }
+
+    ul{
+        list-style: none;
+        
+        li{
+            margin-bottom: 7px;
+        }
+
+        a{
+            text-decoration: none;
+            color: $color-white;
+            font-size: 12px;
+            font-weight: 200;
+
+        }
+    }
+
+    .iconos{
+
+        .container-icons{
+            display: flex;
+            gap: 15px;
+        }
+    }
+
+}
+
+
+
+.container-final-footer{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $color-background;
+
+    .container-nav-final{
+        
+        ul{
+            list-style: none;
+            display: flex;
+            gap:40px ;
+
+            a{
+                text-decoration: none;
+                color: $color-white;
+                font-size: 12px;
+                font-weight: 200;
+    
+            }
+        }
+    }
+
+    .container-right-reserved{
+        p{
+            color: $color-white;
+            font-size:10px;
+            font-weight: 100;
+        }
+    }
+}
+
+.container-final-footer::before{
+    content: ''; /* Añade contenido al pseudoelemento */
+    position: absolute; /* Establece la posición absoluta para el pseudoelemento */
+    top: 0; /* Coloca el pseudoelemento en la parte superior del contenedor */
+    left:-130px; /* Coloca el pseudoelemento al principio del contenedor */
+    width: 130%; /* Establece el ancho del pseudoelemento al 100% del contenedor */
+    height: 1px; /* Altura de la línea divisoria */
+    background-color: rgba(255, 255, 255, 0.771); 
+    
+}
