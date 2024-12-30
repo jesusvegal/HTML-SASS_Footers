@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container-iconos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+}
+
+.container-nav-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.container-nav-button .container-nav {
+  display: flex;
+}
+.container-nav-button .container-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.container-nav-button .container-nav ul a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.container-nav-button .container-button {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.container-nav-button .container-button .button {
+  border: none;
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 30px;
+}
+.container-nav-button .container-button .button a {
+  text-decoration: none;
+  color: #000000;
+  padding: 12px 18px;
+  text-align: center;
+}
+.container-nav-button .container-button .button:hover {
+  background-image: linear-gradient(146deg, rgba(241, 250, 241, 0.928) 15%, rgb(100, 106, 93) 100%);
+}
+
+.linia-divisoria {
+  border: 1px solid #ffffff;
+}
+
+.container-reserved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.container-reserved p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
