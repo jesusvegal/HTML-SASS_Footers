@@ -1,0 +1,39 @@
+//Poner la principal font
+
+html * {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+
+
+
+footer{
+    color: $black;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+    overflow-x: hidden;
+
+    p{
+        font-weight: 200;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    ul{
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                color: $black;
+                font-weight: 200;
+                
+                
+            }
+        }
+    }
+}
