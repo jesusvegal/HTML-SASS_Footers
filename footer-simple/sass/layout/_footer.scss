@@ -1,0 +1,101 @@
+footer{
+    background-color: $Background;
+    padding: 60px 40px;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    gap: 140px;
+    justify-content: space-between;
+}
+
+.container-nav-completo{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-principal{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 35px ;
+
+        a{
+            text-decoration: none;
+            color: $white;
+            font-weight: 200;
+            font-size: 12px;
+        }
+    }
+}
+
+.search-container {
+    position: relative;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 4px 30px 4px 10px; /* Ajustamos el padding para dejar espacio al ícono */
+    border-radius: 15px;
+    font-size: 12px;
+    background-image: url('../../img/lupa.svg'); /* Establecemos la imagen de fondo */
+    background-repeat: no-repeat;
+    background-position:  calc(100% - 10px) center; /* Posición del fondo */
+    background-size: auto 12px; /* Tamaño del fondo */
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px; /* Ancho del botón */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:focus {
+    outline: none; /* Quitamos el contorno al enfocar el botón */
+}
+
+.container-redes-sociales{
+    figure{
+    display: flex;
+    gap: 24px;
+    height: 20%;
+    } 
+}
+
+
+.linia-divisoria{
+    border: 1px solid rgba(255, 255, 255, 0.764);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-nav-secundario{
+    display: flex;
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 35px ;
+
+        a{
+            text-decoration: none;
+            color: $white;
+            font-weight: 200;
+            font-size: 12px;
+        }
+    }
+}
