@@ -15,12 +15,12 @@ No matter your preference, we’ve got something for you! Get ready to take your
 
 ### 1a. "Sunshine Footer ☀️"
 
-![Sunshine Footer](/img/footer01a-Light.png)
+![Sunshine Footer](/img/footer01a-light.png)
 [![Static Badge](https://img.shields.io/badge/Ver%20Codigo-%2387DB1C?style=for-the-badge&labelColor=%2387DB1C&color=%2387DB1C)](/footer01a-Light/)
 
 ### 1b. "Sunshine Footer ☀️"
 
-![Sunshine Footer](/img/footer01b-Light.png)
+![Sunshine Footer](/img/footer01b-light.png)
 [![Static Badge](https://img.shields.io/badge/Ver%20Codigo-%2387DB1C?style=for-the-badge&labelColor=%2387DB1C&color=%2387DB1C)](/footer01b-Light/)
 
 ### 2a. "Midnight Moon Footer 🌙"
@@ -103,12 +103,12 @@ This project is licensed under the  [MIT] - Check the [LICENSE](LICENSE) file fo
 
 ### 1a. "Sunshine Footer ☀️"
 
-![Sunshine Footer](/img/footer01a-Light.png)
+![Sunshine Footer](/img/footer01a-light.png)
 [![Static Badge](https://img.shields.io/badge/Ver%20Codigo-%2387DB1C?style=for-the-badge&labelColor=%2387DB1C&color=%2387DB1C)](/footer01a-Light/)
 
 ### 1b. "Sunshine Footer ☀️"
 
-![Sunshine Footer](/img/footer01b-Light.png)
+![Sunshine Footer](/img/footer01b-light.png)
 [![Static Badge](https://img.shields.io/badge/Ver%20Codigo-%2387DB1C?style=for-the-badge&labelColor=%2387DB1C&color=%2387DB1C)](/footer01b-Light/)
 
 ### 2a. "Midnight Moon Footer 🌙"
