@@ -35,7 +35,7 @@ No matter your preference, we’ve got something for you! Get ready to take your
 
 ### 3. "Phone 📱"
 
-![Footer Phone](/img/footer03-Phone.png)
+![Footer Phone](/img/footer03-phone.png)
 [![Static Badge](https://img.shields.io/badge/ver%20codigo-%2337383C?style=for-the-badge)](/footer-phone/)
 
 ### 4. "Simple 🎆"
@@ -123,7 +123,7 @@ This project is licensed under the  [MIT] - Check the [LICENSE](LICENSE) file fo
 
 ### 3. "Phone 📱"
 
-![Footer Phone](/img/footer03-Phone.png)
+![Footer Phone](/img/footer03-phone.png)
 [![Static Badge](https://img.shields.io/badge/ver%20codigo-%2337383C?style=for-the-badge)](/footer-phone/)
 
 ### 4. "Simple 🎆"
