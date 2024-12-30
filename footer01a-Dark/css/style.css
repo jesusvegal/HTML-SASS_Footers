@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.subscription-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.8274509804); /* Borde alrededor del icono y el input */
+  background-color: #000000; /* Fondo negro */
+  border-radius: 100px;
+  padding: 5px 24px; /* Espaciado interno */
+}
+
+.input-container i {
+  margin-right: 10px; /* Espacio entre el icono y el input */
+  color: #ffffff; /* Color del icono */
+  display: inline-flex;
+  align-items: center;
+}
+.input-container i img {
+  width: 80%;
+  text-align: center;
+}
+
+.input-container input[type=email] {
+  border: none; /* Quita el borde predeterminado del input */
+  background: none; /* Quita el fondo predeterminado del input */
+  width: 230px; /* Ajusta el ancho del input */
+  padding: 5px;
+}
+
+/* Estilo del texto del placeholder */
+.input-container input[type=email]::placeholder {
+  color: #ffffff; /* Color del texto del placeholder */
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  background-color: #000000;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.subscribe-button {
+  background-color: #87DB1C;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+
+.subscribe-button:hover {
+  background-image: linear-gradient(146deg, rgba(143, 255, 0, 0.9276085434) 15%, rgb(88, 153, 5) 100%);
+}
+
+.container-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.newsletter p {
+  font-size: 22px;
+  font-weight: 600;
+  width: 55%;
+}
+
+.linia-divisoria {
+  border: 1px solid rgba(255, 255, 255, 0.323);
+}
+
+.container {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.logo h3 {
+  font-size: 23px;
+  font-weight: 600;
+  width: 350px;
+}
+.logo p {
+  width: 60%;
+  font-size: 14px;
+}
+
+.navegador {
+  display: flex;
+  gap: 64px;
+}
+.navegador .title {
+  font-weight: 200;
+}
+.navegador a {
+  font-size: 14px;
+  font-weight: 300;
+}
+.navegador article, .navegador ul {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.container-final-footer {
+  margin-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-final-footer .terminos-privacity {
+  display: flex;
+  gap: 32px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 64px;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=style.css.map */
